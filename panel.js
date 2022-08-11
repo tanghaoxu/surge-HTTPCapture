@@ -19,7 +19,7 @@ if ($trigger === "button") {
             title:"HTTP Capture",
             content:"Capture: \u2612     Hostnames: \u2612",
             icon: "touchid",
-            "icon-color": "FF0097"
+            "icon-color": "#F20C00"
         })
     }
 } else if(modsStatus == true || capture.enabled == true) {
@@ -34,7 +34,7 @@ if ($trigger === "button") {
             title:"HTTP Capture",
             content:"Capture: " + iconStatus(capture.enabled) + "     Hostnames: " + iconStatus(modsStatus),
             icon: "touchid",
-            "icon-color": "FF0097"
+            "icon-color": "#F20C00"
         })
 }
 })();
