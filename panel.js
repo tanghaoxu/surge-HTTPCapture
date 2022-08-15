@@ -17,7 +17,7 @@ if ($trigger === "button") {
         await httpAPI("POST", "/v1/modules", {"MitM All Hostnames": "false"})
         $done({
             title:"ℍ𝕋𝕋ℙ ℂ𝕒𝕡𝕥𝕦𝕣𝕖",
-            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: \u2612     Hostnames: \u2612",
+            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: \u2612     ℍ𝕠𝕤𝕥𝕟𝕒𝕞𝕖𝕤: \u2612",
             icon: "touchid",
             "icon-color": "#F20C00"
         })
@@ -25,14 +25,14 @@ if ($trigger === "button") {
 } else if(modsStatus == true || capture.enabled == true) {
         $done({
             title:"ℍ𝕋𝕋ℙ ℂ𝕒𝕡𝕥𝕦𝕣𝕖",
-            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: " + iconStatus(capture.enabled) + "     Hostnames: " + iconStatus(modsStatus),
+            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: " + iconStatus(capture.enabled) + "     ℍ𝕠𝕤𝕥𝕟𝕒𝕞𝕖𝕤: " + iconStatus(modsStatus),
             icon: "hand.raised.square.on.square.fill",
             "icon-color": "ED0001"
         })
 } else {
         $done({
             title:"ℍ𝕋𝕋ℙ ℂ𝕒𝕡𝕥𝕦𝕣𝕖",
-            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: " + iconStatus(capture.enabled) + "     Hostnames: " + iconStatus(modsStatus),
+            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: " + iconStatus(capture.enabled) + "     ℍ𝕠𝕤𝕥𝕟𝕒𝕞𝕖𝕤: " + iconStatus(modsStatus),
             icon: "touchid",
             "icon-color": "F20C00"
         })
