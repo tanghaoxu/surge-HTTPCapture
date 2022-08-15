@@ -8,7 +8,7 @@ if ($trigger === "button") {
         await httpAPI("POST", "/v1/modules", {"MitM All Hostnames": "true"})
         $done({
             title:"ℍ𝕋𝕋ℙ ℂ𝕒𝕡𝕥𝕦𝕣𝕖",
-            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: \u2611     Hostnames: \u2611",
+            content:"ℂ𝕒𝕡𝕥𝕦𝕣𝕖: \u2611     ℍ𝕠𝕤𝕥𝕟𝕒𝕞𝕖𝕤: \u2611",
             icon: "hand.raised.square.on.square.fill",
             "icon-color": "ED0001"
         })
