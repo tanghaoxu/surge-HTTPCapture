@@ -1,4 +1,5 @@
 /*
+ * ℂ𝕒𝕡𝕥𝕦𝕣𝕖 = title=ℍ𝕋𝕋ℙ ℂ𝕒𝕡𝕥𝕦𝕣𝕖,content=DISABLE,icon=doc.text.magnifyingglass,icon-color=FF6D1F,script-name=ℍ𝕋𝕋ℙ-ℂ𝕒𝕡𝕥𝕦𝕣𝕖,update-interval=1
  * !name= MitM All Hostnames
  * !desc= Perform MitM on all hostnames except the following hostnames.
  * [MITM]
