@@ -20,7 +20,7 @@ if ($trigger === "button") {
             title:"🅷🆃🆃🅿",
             content:"🄲🄰🄿🅃🅄🅁🄴: \u2611    🄷🄾🅂🅃🄽🄰🄼🄴🅂: \u2611",
             icon: "hand.raised.square.on.square.fill",
-            "icon-color": "ED0001"
+            "icon-color": "#00FF00"
         })
     } else {
         await httpAPI("POST", "/v1/features/capture", {enabled: "false"})
@@ -37,7 +37,7 @@ if ($trigger === "button") {
             title:"🅷🆃🆃🅿",
             content:"🄲🄰🄿🅃🅄🅁🄴: " + iconStatus(capture.enabled) + "    🄷🄾🅂🅃🄽🄰🄼🄴🅂: " + iconStatus(modsStatus),
             icon: "hand.raised.square.on.square.fill",
-            "icon-color": "ED0001"
+            "icon-color": "#00FF00"
         })
 } else {
         $done({
