@@ -19,7 +19,7 @@ if ($trigger === "button") {
         $done({
             title:"🅷🆃🆃🅿",
             content:"🄲🄰🄿🅃🅄🅁🄴: \u2611    🄷🄾🅂🅃🄽🄰🄼🄴🅂: \u2611",
-            icon: "hand.raised.square.on.square.fill",
+            icon: "doc.text.magnifyingglass",
             "icon-color": "#00FF00"
         })
     } else {
