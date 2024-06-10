@@ -18,7 +18,7 @@ if ($trigger === "button") {
         await httpAPI("POST", "/v1/modules", {"MitM All Hostnames": "true"})
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴:\u2611  🄷🄾🅂🅃🄽🄰🄼🄴🅂:\u2611",
+            content:"ⒸⒶⓅⓉⓊⓇⒺ:\u2611  ⒽⓄⓈⓉⓃⒶⓂⒺⓈ:\u2611",
             icon: "doc.text.magnifyingglass",
             "icon-color": "#00FF00"
         })
@@ -27,7 +27,7 @@ if ($trigger === "button") {
         await httpAPI("POST", "/v1/modules", {"MitM All Hostnames": "false"})
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴:\u2612  🄷🄾🅂🅃🄽🄰🄼🄴🅂:\u2612",
+            content:"ⒸⒶⓅⓉⓊⓇⒺ:\u2612  ⒽⓄⓈⓉⓃⒶⓂⒺⓈ:\u2612",
             icon: "touchid",
             "icon-color": "#F20C00"
         })
@@ -35,14 +35,14 @@ if ($trigger === "button") {
 } else if(modsStatus == true || capture.enabled == true) {
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴:" + iconStatus(capture.enabled) + "  🄷🄾🅂🅃🄽🄰🄼🄴🅂:" + iconStatus(modsStatus),
+            content:"ⒸⒶⓅⓉⓊⓇⒺ:" + iconStatus(capture.enabled) + "  ⒽⓄⓈⓉⓃⒶⓂⒺⓈ:" + iconStatus(modsStatus),
             icon: "hand.raised.square.on.square.fill",
             "icon-color": "#00FF00"
         })
 } else {
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴:" + iconStatus(capture.enabled) + "  🄷🄾🅂🅃🄽🄰🄼🄴🅂:" + iconStatus(modsStatus),
+            content:"ⒸⒶⓅⓉⓊⓇⒺ:" + iconStatus(capture.enabled) + "  ⒽⓄⓈⓉⓃⒶⓂⒺⓈ:" + iconStatus(modsStatus),
             icon: "touchid",
             "icon-color": "F20C00"
         })
