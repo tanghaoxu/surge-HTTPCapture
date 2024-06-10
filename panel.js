@@ -35,14 +35,14 @@ if ($trigger === "button") {
 } else if(modsStatus == true || capture.enabled == true) {
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴: " + iconStatus(capture.enabled) + "    🄷🄾🅂🅃🄽🄰🄼🄴🅂: " + iconStatus(modsStatus),
+            content:"🄲🄰🄿🅃🅄🅁🄴: " + iconStatus(capture.enabled) + "  🄷🄾🅂🅃🄽🄰🄼🄴🅂: " + iconStatus(modsStatus),
             icon: "hand.raised.square.on.square.fill",
             "icon-color": "#00FF00"
         })
 } else {
         $done({
             title:"🅷🆃🆃🅿",
-            content:"🄲🄰🄿🅃🅄🅁🄴: " + iconStatus(capture.enabled) + "    🄷🄾🅂🅃🄽🄰🄼🄴🅂: " + iconStatus(modsStatus),
+            content:"🄲🄰🄿🅃🅄🅁🄴: " + iconStatus(capture.enabled) + "  🄷🄾🅂🅃🄽🄰🄼🄴🅂: " + iconStatus(modsStatus),
             icon: "touchid",
             "icon-color": "F20C00"
         })
