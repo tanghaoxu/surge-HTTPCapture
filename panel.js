@@ -1,5 +1,8 @@
 /*
- * 🄲🄰🄿🅃🅄🅁🄴 = title=🅷🆃🆃🅿,content=DISABLE,icon=doc.text.magnifyingglass,icon-color=FF6D1F,script-name=🅷🆃🆃🅿-🄲🄰🄿🅃🅄🅁🄴,update-interval=1
+ * [Script]
+ * 🅷🆃🆃🅿 = type=generic,script-path=https://raw.githubusercontent.com/tom-proxy/surge-http/jk/panel.js,script-update-interval=0
+ * [Panel]
+ * 🅷🆃🆃🅿 = script-name=🅷🆃🆃🅿,update-interval=-1
  * !name= MitM All Hostnames
  * !desc= Perform MitM on all hostnames except the following hostnames.
  * [MITM]
